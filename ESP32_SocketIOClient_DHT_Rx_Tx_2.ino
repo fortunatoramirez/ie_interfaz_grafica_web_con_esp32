@@ -31,7 +31,7 @@ void setup() {
   conectar_WiFiSTA();
   socketIO.begin(server, port);
   socketIO.on("desde_servidor_comando",procesar_mensaje_recibido);
-  dht.init();
+  //dht.init();
 }
 
 void loop() {
